@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://h17l4sfwduxa"]
+
+[ext_resource type="PackedScene" uid="uid://d2dflj7eo4wuh" path="res://Scenes/player.tscn" id="1_6er5m"]
+[ext_resource type="PackedScene" uid="uid://dh1fxoou6ymnv" path="res://Assets/City Builder Bits/Assets/gltf/road_tsplit.gltf" id="2_8kr3l"]
+[ext_resource type="PackedScene" uid="uid://d4esbfwcyo8ca" path="res://Assets/City Builder Bits/Assets/gltf/road_straight.gltf" id="3_5lwhh"]
+[ext_resource type="PackedScene" uid="uid://c82138bh1q7y5" path="res://Assets/City Builder Bits/Assets/gltf/building_A.gltf" id="4_ylvwr"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_me740"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_k3v46"]
+sky_material = SubResource("ProceduralSkyMaterial_me740")
+
+[sub_resource type="Environment" id="Environment_mee5k"]
+background_mode = 2
+sky = SubResource("Sky_k3v46")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="World" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 4.93951, -12.6882)
+light_color = Color(1, 1, 0.886275, 1)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_mee5k")
+
+[node name="Ground" type="CSGBox3D" parent="."]
+transform = Transform3D(1000, 0, 0, 0, 0.09, 0, 0, 0, 1023.26, 0, 0, 0)
+use_collision = true
+
+[node name="Player" parent="." instance=ExtResource("1_6er5m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.75132, 0)
+
+[node name="road_tsplit2" parent="." instance=ExtResource("2_8kr3l")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -0.383, -0.7, 0.679)
+visible = false
+
+[node name="road_straight2" parent="." instance=ExtResource("3_5lwhh")]
+transform = Transform3D(-4.37114e-07, 0, 10, 0, 10, 0, -10, 0, -4.37114e-07, 19.578, -0.7, 0.68)
+visible = false
+
+[node name="building_A2" parent="." instance=ExtResource("4_ylvwr")]
+transform = Transform3D(-4.37114e-07, 0, 10, 0, 10, 0, -10, 0, -4.37114e-07, -20.3669, -0.7, 0.68)
+visible = false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b7hp8f543e75e"
+path="res://.godot/imported/trash_B.obj-1bf12aefada8e675afd6c48aa0dc0f6e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trash_B.obj-1bf12aefada8e675afd6c48aa0dc0f6e.mesh"]
+
+source_file="res://Assets/City Builder Bits/Assets/obj/trash_B.obj"
+dest_files=["res://.godot/imported/trash_B.obj-1bf12aefada8e675afd6c48aa0dc0f6e.mesh", "res://.godot/imported/trash_B.obj-1bf12aefada8e675afd6c48aa0dc0f6e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

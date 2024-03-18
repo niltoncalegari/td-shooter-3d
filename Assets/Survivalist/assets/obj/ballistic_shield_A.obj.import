@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6320v8ovvxxn"
+path="res://.godot/imported/ballistic_shield_A.obj-f0a336bd1f5e84e88b40daf3feb53c7e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ballistic_shield_A.obj-f0a336bd1f5e84e88b40daf3feb53c7e.mesh"]
+
+source_file="res://Assets/Survivalist/assets/obj/ballistic_shield_A.obj"
+dest_files=["res://.godot/imported/ballistic_shield_A.obj-f0a336bd1f5e84e88b40daf3feb53c7e.mesh", "res://.godot/imported/ballistic_shield_A.obj-f0a336bd1f5e84e88b40daf3feb53c7e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

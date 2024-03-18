@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://da5qc08wgb33d"
+path.s3tc="res://.godot/imported/building_F_withoutBase-3bf9a7b570dd01c0ddc8c61a687fee19_citybits_texture.png-60ef9be7c5b640a61e8989fa112d57f9.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://Assets/City Builder Bits/Assets/fbx (unity)/building_F_withoutBase-3bf9a7b570dd01c0ddc8c61a687fee19_citybits_texture.png"
+dest_files=["res://.godot/imported/building_F_withoutBase-3bf9a7b570dd01c0ddc8c61a687fee19_citybits_texture.png-60ef9be7c5b640a61e8989fa112d57f9.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

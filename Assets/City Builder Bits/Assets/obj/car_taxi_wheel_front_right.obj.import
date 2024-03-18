@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bu7moshwbuiah"
+path="res://.godot/imported/car_taxi_wheel_front_right.obj-1d3e10df92dec2a516dd98ae993bef33.mesh"
+
+[deps]
+
+files=["res://.godot/imported/car_taxi_wheel_front_right.obj-1d3e10df92dec2a516dd98ae993bef33.mesh"]
+
+source_file="res://Assets/City Builder Bits/Assets/obj/car_taxi_wheel_front_right.obj"
+dest_files=["res://.godot/imported/car_taxi_wheel_front_right.obj-1d3e10df92dec2a516dd98ae993bef33.mesh", "res://.godot/imported/car_taxi_wheel_front_right.obj-1d3e10df92dec2a516dd98ae993bef33.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

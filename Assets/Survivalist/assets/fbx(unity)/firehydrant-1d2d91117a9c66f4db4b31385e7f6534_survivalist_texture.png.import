@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cle4ik2268p7a"
+path.s3tc="res://.godot/imported/firehydrant-1d2d91117a9c66f4db4b31385e7f6534_survivalist_texture.png-6bb7ccb3569f036eca5f8166a759b28d.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://Assets/Survivalist/assets/fbx(unity)/firehydrant-1d2d91117a9c66f4db4b31385e7f6534_survivalist_texture.png"
+dest_files=["res://.godot/imported/firehydrant-1d2d91117a9c66f4db4b31385e7f6534_survivalist_texture.png-6bb7ccb3569f036eca5f8166a759b28d.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
